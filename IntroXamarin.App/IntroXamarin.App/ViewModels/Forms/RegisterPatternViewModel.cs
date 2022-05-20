@@ -47,6 +47,7 @@ namespace IntroXamarin.App.ViewModels.Forms
 
         public RegisterPatternViewModel()
         {
+            this.EnrollmentDate = DateTime.Now;
             this.RegisterCommand = new Command(Register);
         }
 
